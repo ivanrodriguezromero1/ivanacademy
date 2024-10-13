@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash); // Enlazar con el diseño XML del Splash
+        setContentView(R.layout.l0_layout_splash); // Enlazar con el diseño XML del Splash
 
         // Ejecutar el cambio de Activity después del tiempo de retardo
         new Handler().postDelayed(new Runnable() {
